@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 323.0, 534.0, 1310.0, 436.0 ],
+		"rect" : [ 412.0, 431.0, 1301.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1102.0, 113.5, 107.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.5, 6.0, 107.0, 20.0 ],
+					"text" : "parameter monitor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1076.0, 111.5, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.5, 28.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-4",
@@ -48,10 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 22.0, 125.0, 38.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1015.0, 104.5, 125.0, 38.0 ],
+					"patching_rect" : [ 1076.0, 151.0, 125.0, 38.0 ],
 					"text" : ";\rezmba clientwindow"
 				}
 
@@ -73,58 +97,9 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 952.0, 250.0, 294.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 952.0, 249.0, 294.0, 71.0 ],
+					"presentation_rect" : [ 1007.0, 161.0, 294.0, 71.0 ],
 					"varname" : "outputs",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-131",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1213.0, 97.0, 87.0, 22.0 ],
-					"text" : "zl reg"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1213.0, 70.0, 56.0, 22.0 ],
-					"text" : "r getpath"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1213.0, 12.0, 87.0, 22.0 ],
-					"text" : "loadmess path"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1213.0, 42.0, 87.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"text" : "thispatcher"
 				}
 
 			}
@@ -358,7 +333,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 861.0, 164.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 40, 188, 534, 926 ],
+						"client_rect" : [ 40, 188, 586, 929 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 386, 311, 730, 971 ]
@@ -379,7 +354,7 @@
 					"patching_rect" : [ 888.5, 188.0, 19.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 889.0, 183.0, 18.0, 33.0 ],
+					"presentation_rect" : [ 939.0, 119.0, 18.0, 33.0 ],
 					"text" : "||\n\\/"
 				}
 
@@ -392,7 +367,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 836.0, 286.0, 23.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 836.0, 286.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 891.0, 198.0, 23.0, 20.0 ],
 					"text" : "=>"
 				}
 
@@ -580,7 +555,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 435.0, 63.0, 399.0, 102.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 435.0, 63.0, 399.0, 102.0 ],
+					"presentation_rect" : [ 490.0, 5.0, 399.0, 102.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -602,7 +577,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 8.0, 242.5, 826.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 283.5, 831.0, 25.0 ],
+					"presentation_rect" : [ 318.0, 196.0, 571.0, 25.0 ],
 					"varname" : "inputs",
 					"viewvisibility" : 1
 				}
@@ -616,7 +591,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 927.0, 286.0, 23.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 927.0, 286.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 982.0, 198.0, 23.0, 20.0 ],
 					"text" : "=>"
 				}
 
@@ -629,7 +604,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 836.0, 113.5, 23.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 836.0, 113.5, 23.0, 20.0 ],
+					"presentation_rect" : [ 891.0, 56.0, 23.0, 20.0 ],
 					"text" : "=>"
 				}
 
@@ -651,7 +626,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1034.0, 87.0, 810.0, 213.0 ],
+						"rect" : [ 642.0, 159.0, 810.0, 213.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -696,7 +671,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1194.0, 439.0, 640.0, 480.0 ],
+										"rect" : [ 759.0, 449.0, 666.0, 292.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -732,7 +707,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 399.0, 191.0, 190.0, 35.0 ],
+													"patching_rect" : [ 436.0, 190.0, 190.0, 35.0 ],
 													"text" : ";\rezmba outputs::outputgain 0 1000"
 												}
 
@@ -744,7 +719,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 377.0, 75.0, 48.0, 22.0 ],
+													"patching_rect" : [ 419.0, 75.0, 48.0, 22.0 ],
 													"text" : "del 500"
 												}
 
@@ -752,13 +727,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-11",
-													"linecount" : 5,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 377.0, 106.0, 217.0, 76.0 ],
-													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::extragain 0;\rezmba inputs::inputgain 0 1000;\rezmba inputs::source mic.1"
+													"patching_rect" : [ 419.0, 106.0, 217.0, 62.0 ],
+													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::inputgain 0 1000;\rezmba inputs::source mic.1"
 												}
 
 											}
@@ -770,8 +745,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 62.0, 106.0, 302.0, 35.0 ],
-													"text" : ";\rezmba modules::soundfile_player::soundfile sf3_key.aif"
+													"patching_rect" : [ 62.0, 106.0, 348.0, 35.0 ],
+													"text" : ";\rezmba modules::ezmba-soundfile_player1::soundfile sf3_key.aif"
 												}
 
 											}
@@ -884,7 +859,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1212.0, 445.0, 640.0, 480.0 ],
+										"rect" : [ 479.0, 435.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -920,8 +895,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 86.0, 146.0, 209.0, 35.0 ],
-													"text" : ";\rezmba modules::pan::balance 1 2000"
+													"patching_rect" : [ 86.0, 146.0, 249.0, 35.0 ],
+													"text" : ";\rezmba modules::ezmba-pan::balance 0 2000"
 												}
 
 											}
@@ -933,8 +908,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 62.0, 104.0, 367.0, 35.0 ],
-													"text" : ";\rezmba modules::soundfile_player::soundfile sf2_reversed_piano.aif"
+													"patching_rect" : [ 62.0, 104.0, 413.0, 35.0 ],
+													"text" : ";\rezmba modules::ezmba-soundfile_player1::soundfile sf2_reversed_piano.aif"
 												}
 
 											}
@@ -1061,40 +1036,27 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
-													"id" : "obj-6",
-													"linecount" : 2,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 297.0, 152.0, 190.0, 35.0 ],
-													"text" : ";\rezmba outputs::outputgain 1 2000"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-5",
-													"linecount" : 8,
+													"linecount" : 7,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 93.0, 240.0, 245.0, 116.0 ],
-													"text" : ";\rezmba modules::pan::balance 0.5;\rezmba modules::pan::destinationL output.L;\rezmba modules::pan::destinationR output.R;\rezmba modules::pan::extragain 0;\rezmba modules::pan::inputgain 1;\rezmba modules::pan::outputgain 1;\rezmba modules::pan::source audio.path.1"
+													"patching_rect" : [ 93.0, 240.0, 285.0, 102.0 ],
+													"text" : ";\rezmba modules::ezmba-pan::balance 0;\rezmba modules::ezmba-pan::destinationL output.L;\rezmba modules::ezmba-pan::destinationR output.R;\rezmba modules::ezmba-pan::inputgain 0;\rezmba modules::ezmba-pan::outputgain 0;\rezmba modules::ezmba-pan::source audio.path.1"
 												}
 
 											}
 , 											{
 												"box" : 												{
 													"id" : "obj-3",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 62.0, 152.0, 217.0, 62.0 ],
-													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::extragain 0;\rezmba inputs::inputgain 1 2000"
+													"patching_rect" : [ 62.0, 152.0, 217.0, 49.0 ],
+													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::inputgain 0 2000"
 												}
 
 											}
@@ -1106,8 +1068,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 121.0, 370.0, 313.0, 76.0 ],
-													"text" : ";\rezmba modules::soundfile_player::outputgain 1;\rezmba modules::soundfile_player::destinationL output.L;\rezmba modules::soundfile_player::destinationR output.R;\rezmba modules::soundfile_player::soundfile sf1_spat.aif"
+													"patching_rect" : [ 121.0, 370.0, 359.0, 76.0 ],
+													"text" : ";\rezmba modules::ezmba-soundfile_player1::outputgain 1;\rezmba modules::ezmba-soundfile_player1::destinationL output.L;\rezmba modules::ezmba-soundfile_player1::destinationR output.R;\rezmba modules::ezmba-soundfile_player1::soundfile sf1_spat.aif"
 												}
 
 											}
@@ -1147,7 +1109,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
-													"order" : 1,
+													"order" : 0,
 													"source" : [ "obj-4", 0 ]
 												}
 
@@ -1155,14 +1117,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
-													"order" : 3,
-													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
 													"order" : 2,
 													"source" : [ "obj-4", 0 ]
 												}
@@ -1170,8 +1124,8 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"order" : 0,
+													"destination" : [ "obj-5", 0 ],
+													"order" : 1,
 													"source" : [ "obj-4", 0 ]
 												}
 
@@ -1220,7 +1174,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 372.0, 107.0, 640.0, 480.0 ],
+										"rect" : [ 724.0, 157.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1251,13 +1205,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-11",
-													"linecount" : 6,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 62.0, 111.0, 217.0, 89.0 ],
-													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::extragain 0;\rezmba inputs::inputgain 0;\rezmba outputs::outputgain 0;\rezmba modules::pan::balance 0.5"
+													"patching_rect" : [ 62.0, 111.0, 217.0, 62.0 ],
+													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::inputgain -70;\rezmba outputs::outputgain -70"
 												}
 
 											}
@@ -1440,7 +1394,7 @@
 ,
 					"patching_rect" : [ 861.0, 112.5, 74.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 861.0, 112.5, 74.0, 22.0 ],
+					"presentation_rect" : [ 916.0, 55.0, 74.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1470,7 +1424,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1023.0, 178.0, 185.0, 285.0 ],
+						"rect" : [ 1364.0, 333.0, 185.0, 285.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1500,13 +1454,61 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 187.0, 136.0, 22.0 ],
+									"text" : "ezmba-soundfile_player",
+									"varname" : "ezmba-soundfile_player2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 121.0, 83.0, 22.0 ],
+									"text" : "ezmba-reverb",
+									"varname" : "ezmba-reverb"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 48.0, 93.0, 22.0 ],
+									"text" : "ezmba-granular",
+									"varname" : "ezmba-granular"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 15.0, 77.0, 22.0 ],
+									"text" : "ezmba-delay",
+									"varname" : "ezmba-delay"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 45.0, 96.0, 22.0 ],
-									"text" : "soundfile_player",
-									"varname" : "soundfile_player"
+									"patching_rect" : [ 8.0, 154.0, 136.0, 22.0 ],
+									"text" : "ezmba-soundfile_player",
+									"varname" : "ezmba-soundfile_player1"
 								}
 
 							}
@@ -1516,9 +1518,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 11.0, 29.0, 22.0 ],
-									"text" : "pan",
-									"varname" : "pan"
+									"patching_rect" : [ 8.0, 83.0, 69.0, 22.0 ],
+									"text" : "ezmba-pan",
+									"varname" : "ezmba-pan"
 								}
 
 							}
@@ -1528,7 +1530,7 @@
 ,
 					"patching_rect" : [ 861.0, 285.0, 64.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 861.0, 285.0, 64.0, 22.0 ],
+					"presentation_rect" : [ 916.0, 197.0, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1549,7 +1551,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 733.0, 221.0, 67.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 733.0, 261.5, 67.0, 20.0 ],
+					"presentation_rect" : [ 785.0, 174.0, 67.0, 20.0 ],
 					"text" : "destination"
 				}
 
@@ -1562,7 +1564,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 139.0, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 139.0, 33.0, 20.0 ],
+					"presentation_rect" : [ 7.0, 6.0, 33.0, 20.0 ],
 					"text" : "DSP"
 				}
 
@@ -1575,7 +1577,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 119.0, 66.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 140.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 63.0, 177.0, 31.0, 20.0 ],
 					"text" : "play"
 				}
 
@@ -1588,7 +1590,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 221.0, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 261.5, 45.0, 20.0 ],
+					"presentation_rect" : [ 318.0, 174.0, 45.0, 20.0 ],
 					"text" : "source"
 				}
 
@@ -1602,7 +1604,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 267.0, 230.0, 34.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 267.0, 270.5, 34.0, 18.0 ],
+					"presentation_rect" : [ 577.0, 183.0, 34.0, 18.0 ],
 					"text" : "-70db",
 					"textcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ]
 				}
@@ -1616,7 +1618,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.0, 221.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.0, 261.5, 31.0, 20.0 ],
+					"presentation_rect" : [ 525.0, 174.0, 31.0, 20.0 ],
 					"text" : "gain"
 				}
 
@@ -1630,51 +1632,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 352.0, 230.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 270.5, 25.0, 18.0 ],
+					"presentation_rect" : [ 662.0, 183.0, 25.0, 18.0 ],
 					"text" : "0db",
-					"textcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.0,
-					"id" : "obj-26",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 526.0, 230.0, 25.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 270.5, 25.0, 18.0 ],
-					"text" : "0db",
-					"textcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 470.0, 221.0, 58.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 474.0, 261.5, 61.0, 20.0 ],
-					"text" : "extragain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.0,
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 611.0, 230.0, 25.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 611.0, 270.5, 25.0, 18.0 ],
-					"text" : "6db",
 					"textcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ]
 				}
 
@@ -1688,7 +1647,7 @@
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 119.0, 87.0, 253.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 161.0, 253.0, 21.0 ]
+					"presentation_rect" : [ 63.0, 198.0, 253.0, 21.0 ]
 				}
 
 			}
@@ -1702,7 +1661,7 @@
 					"patching_rect" : [ 63.0, 52.0, 58.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 57.0, 100.0, 58.0, 60.0 ],
+					"presentation_rect" : [ 7.0, 137.0, 58.0, 60.0 ],
 					"text" : "import a mock performance"
 				}
 
@@ -1717,7 +1676,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 67.0, 87.0, 22.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 160.0, 22.0, 22.0 ]
+					"presentation_rect" : [ 7.0, 198.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -1731,7 +1690,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.0, 159.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 159.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 7.0, 28.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1752,29 +1711,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-131", 1 ],
-					"source" : [ "obj-20", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1815,6 +1753,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -1823,64 +1768,99 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "audio.receive.io.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio.receive.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio.send.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cues.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ezmba-delay.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-delay",
+				"patcherrelativepath" : "./modules/ezmba-delay",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ezmba-gain.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"patcherrelativepath" : "./abstracts",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ezmba-granular.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-granular",
+				"patcherrelativepath" : "./modules/ezmba-granular",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ezmba-pan.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-pan",
+				"patcherrelativepath" : "./modules/ezmba-pan",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ezmba-reverb.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-reverb",
+				"patcherrelativepath" : "./modules/ezmba-reverb",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ezmba-soundfile_player.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-soundfile_player",
+				"patcherrelativepath" : "./modules/ezmba-soundfile_player",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "inputs.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "outputs.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pan.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/modules/pan",
-				"patcherrelativepath" : "./modules/pan",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soundfile_player.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/modules/soundfile_player",
-				"patcherrelativepath" : "./modules/soundfile_player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "soundfile_player_core.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson4/Ezmba-framework2025b/modules/soundfile_player",
-				"patcherrelativepath" : "./modules/soundfile_player",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-soundfile_player",
+				"patcherrelativepath" : "./modules/ezmba-soundfile_player",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sub-granular.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-granular",
+				"patcherrelativepath" : "./modules/ezmba-granular",
 				"type" : "JSON",
 				"implicit" : 1
 			}
