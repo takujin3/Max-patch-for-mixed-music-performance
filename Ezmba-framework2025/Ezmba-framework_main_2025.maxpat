@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 412.0, 431.0, 1301.0, 232.0 ],
+		"rect" : [ 522.0, 301.0, 1301.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -333,7 +333,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 861.0, 164.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 40, 188, 586, 929 ],
+						"client_rect" : [ 57, 105, 883, 1021 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 386, 311, 730, 971 ]
@@ -626,7 +626,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 642.0, 159.0, 810.0, 213.0 ],
+						"rect" : [ 898.0, 141.0, 810.0, 213.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -656,7 +656,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-10",
+									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -671,7 +671,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 759.0, 449.0, 666.0, 292.0 ],
+										"rect" : [ 946.0, 655.0, 666.0, 292.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -701,14 +701,26 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 62.0, 133.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-3",
 													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 436.0, 190.0, 190.0, 35.0 ],
-													"text" : ";\rezmba outputs::outputgain 0 1000"
+													"patching_rect" : [ 288.0, 171.0, 201.0, 35.0 ],
+													"text" : ";\rezmba outputs::outputgain -70 1000"
 												}
 
 											}
@@ -719,7 +731,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 419.0, 75.0, 48.0, 22.0 ],
+													"patching_rect" : [ 62.0, 106.0, 48.0, 22.0 ],
 													"text" : "del 500"
 												}
 
@@ -732,8 +744,198 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 419.0, 106.0, 217.0, 62.0 ],
-													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::inputgain 0 1000;\rezmba inputs::source mic.1"
+													"patching_rect" : [ 62.0, 171.0, 217.0, 62.0 ],
+													"text" : ";\rezmba inputs::destination audio.path.1;\rezmba inputs::inputgain -70 1000;\rezmba inputs::source mic.1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 62.0, 74.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 62.0, 37.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"order" : 1,
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"order" : 0,
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 275.0, 151.0, 55.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p event4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 275.0, 117.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 883.0, 707.0, 883.0, 297.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-16",
+													"maxclass" : "preset",
+													"numinlets" : 1,
+													"numoutlets" : 5,
+													"outlettype" : [ "preset", "int", "preset", "int", "" ],
+													"patching_rect" : [ 443.0, 18.0, 100.0, 40.0 ],
+													"preset_data" : [ 														{
+															"number" : 1,
+															"data" : [ 54, "obj-13", "multislider", "list", 9, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+														}
+ ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"contdata" : 1,
+													"id" : "obj-13",
+													"maxclass" : "multislider",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 443.0, 69.0, 277.0, 88.0 ],
+													"setminmax" : [ 0.0, 9.0 ],
+													"settype" : 0,
+													"size" : 50
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 443.0, 198.0, 54.0, 22.0 ],
+													"text" : "s ezmba"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-9",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 443.0, 167.0, 349.0, 22.0 ],
+													"text" : "prepend modules::ezmba-granular::probability_for_time_interval"
 												}
 
 											}
@@ -785,40 +987,36 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"order" : 1,
-													"source" : [ "obj-2", 0 ]
+													"destination" : [ "obj-9", 0 ],
+													"source" : [ "obj-13", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"order" : 0,
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-2", 0 ],
-													"order" : 0,
-													"source" : [ "obj-4", 0 ]
+													"destination" : [ "obj-13", 0 ],
+													"source" : [ "obj-16", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
-													"order" : 1,
 													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 0 ],
+													"source" : [ "obj-9", 0 ]
 												}
 
 											}
  ]
 									}
 ,
-									"patching_rect" : [ 218.0, 150.0, 55.0, 22.0 ],
+									"patching_rect" : [ 218.0, 151.0, 55.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -826,7 +1024,8 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p event3"
+									"text" : "p event3",
+									"varname" : "event3"
 								}
 
 							}
@@ -965,7 +1164,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 161.0, 150.0, 55.0, 22.0 ],
+									"patching_rect" : [ 161.0, 151.0, 55.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1006,7 +1205,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 772.0, 87.0, 640.0, 480.0 ],
+										"rect" : [ 1024.0, 503.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1069,7 +1268,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 121.0, 370.0, 359.0, 76.0 ],
-													"text" : ";\rezmba modules::ezmba-soundfile_player1::outputgain 1;\rezmba modules::ezmba-soundfile_player1::destinationL output.L;\rezmba modules::ezmba-soundfile_player1::destinationR output.R;\rezmba modules::ezmba-soundfile_player1::soundfile sf1_spat.aif"
+													"text" : ";\rezmba modules::ezmba-soundfile_player1::outputgain 0;\rezmba modules::ezmba-soundfile_player1::destinationL output.L;\rezmba modules::ezmba-soundfile_player1::destinationR output.R;\rezmba modules::ezmba-soundfile_player1::soundfile sf1_spat.aif"
 												}
 
 											}
@@ -1133,7 +1332,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 104.0, 150.0, 55.0, 22.0 ],
+									"patching_rect" : [ 104.0, 151.0, 55.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1174,7 +1373,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 724.0, 157.0, 640.0, 480.0 ],
+										"rect" : [ 1072.0, 472.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1335,6 +1534,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
@@ -1344,6 +1550,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-4", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-4", 4 ]
 								}
 
 							}
@@ -1424,7 +1637,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1364.0, 333.0, 185.0, 285.0 ],
+						"rect" : [ 1578.0, 88.0, 168.0, 321.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1453,6 +1666,30 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 263.0, 63.0, 22.0 ],
+									"text" : "ezmba-rm",
+									"varname" : "ezmba-rm"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 224.0, 96.0, 22.0 ],
+									"text" : "ezmba-pitchshift",
+									"varname" : "ezmba-pitchshift"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "newobj",
@@ -1633,7 +1870,7 @@
 					"patching_rect" : [ 352.0, 230.0, 25.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 662.0, 183.0, 25.0, 18.0 ],
-					"text" : "0db",
+					"text" : "6db",
 					"textcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ]
 				}
 
@@ -1823,9 +2060,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ezmba-pitchshift.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-pitchshift",
+				"patcherrelativepath" : "./modules/ezmba-pitchshift",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ezmba-reverb.maxpat",
 				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-reverb",
 				"patcherrelativepath" : "./modules/ezmba-reverb",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ezmba-rm.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-rm",
+				"patcherrelativepath" : "./modules/ezmba-rm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1861,6 +2112,13 @@
 				"name" : "sub-granular.maxpat",
 				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-granular",
 				"patcherrelativepath" : "./modules/ezmba-granular",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sub-pitchshift.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-pitchshift",
+				"patcherrelativepath" : "./modules/ezmba-pitchshift",
 				"type" : "JSON",
 				"implicit" : 1
 			}
