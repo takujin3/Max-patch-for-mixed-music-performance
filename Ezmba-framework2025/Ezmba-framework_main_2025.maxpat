@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 522.0, 301.0, 1301.0, 232.0 ],
+		"rect" : [ 448.0, 555.0, 1301.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1667,6 +1667,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 292.0, 127.0, 22.0 ],
+									"text" : "ezmba-pingpongdelay",
+									"varname" : "ezmba-pingpongdelay"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -2005,119 +2017,126 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "audio.receive.io.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio.receive.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio.send.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cues.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-delay.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-delay",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-delay",
 				"patcherrelativepath" : "./modules/ezmba-delay",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-gain.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-granular.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-granular",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-granular",
 				"patcherrelativepath" : "./modules/ezmba-granular",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-pan.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-pan",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-pan",
 				"patcherrelativepath" : "./modules/ezmba-pan",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ezmba-pingpongdelay.maxpat",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-pingpongdelay",
+				"patcherrelativepath" : "./modules/ezmba-pingpongdelay",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ezmba-pitchshift.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-pitchshift",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-pitchshift",
 				"patcherrelativepath" : "./modules/ezmba-pitchshift",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-reverb.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-reverb",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-reverb",
 				"patcherrelativepath" : "./modules/ezmba-reverb",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-rm.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-rm",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-rm",
 				"patcherrelativepath" : "./modules/ezmba-rm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ezmba-soundfile_player.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-soundfile_player",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-soundfile_player",
 				"patcherrelativepath" : "./modules/ezmba-soundfile_player",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputs.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "outputs.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/abstracts",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/abstracts",
 				"patcherrelativepath" : "./abstracts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "soundfile_player_core.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-soundfile_player",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-soundfile_player",
 				"patcherrelativepath" : "./modules/ezmba-soundfile_player",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub-granular.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-granular",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-granular",
 				"patcherrelativepath" : "./modules/ezmba-granular",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub-pitchshift.maxpat",
-				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson6/Ezmba-framework2025/modules/ezmba-pitchshift",
+				"bootpath" : "~/Documents/Takuto/Academics/UniversityMaterials/UniversityOfPecs/2025Fall/MixedMusicComposition/Lesson7/Ezmba-framework2025/modules/ezmba-pitchshift",
 				"patcherrelativepath" : "./modules/ezmba-pitchshift",
 				"type" : "JSON",
 				"implicit" : 1
